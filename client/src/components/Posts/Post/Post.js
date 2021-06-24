@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-const Form = () =>{
+const Post = () =>{
     return(
-        <h1>Form</h1>
+        <h1>Post</h1>
     )
 }
  
-export default Form;
+export default Post;
