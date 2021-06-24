@@ -22,3 +22,7 @@ for seeing the frontend
 https://stackoverflow.com/questions/65471245/how-to-deploy-mern-stack-app-to-github-and-heroku
 
 https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-match-any-when-pushing-commits-in-git
+
+### To read about HTTP status codes:
+
+https://www.restapitutorial.com/httpstatuscodes.html
