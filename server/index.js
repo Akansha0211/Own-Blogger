@@ -2,8 +2,13 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import mongoose from 'mongoose';
+import postRoutes from './routes/posts.js';
 
 const app = express();
+
+//use express middleware to connect routes to application
+app.use('/posts',postRoutes);
+
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.use(cors());
