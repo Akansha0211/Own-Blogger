@@ -4,7 +4,13 @@
 
 ### npm start
 
+for seeing the frontend
+
 ## Tech stack used:
+
+1. React for the frontend task
+2. Express for backend
+3. MongoDB Atlas as database https://www.mongodb.com/cloud/atlas
 
 ### Project structure :
 
