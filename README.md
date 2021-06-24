@@ -1,17 +1,17 @@
 # Blogging Website
 
-## clone it : git clone https://github.com/Akansha0211/Own-Blogger.git
+### clone it : git clone https://github.com/Akansha0211/Own-Blogger.git
 
-## npm start
+### npm start
 
-### Tech stack used:
+## Tech stack used:
 
-### Project strcuture :
+### Project structure :
 
 1. client : contains the frontend of the project
-2. server : all the neccessary backend code and dependencies
+2. server : all the neccessary backend code and dependencies(nodemon, express, body-parser, cors)
 
-### Some links that will help in git setup
+### Some links that will help in git setup:
 
 https://stackoverflow.com/questions/65471245/how-to-deploy-mern-stack-app-to-github-and-heroku
 
