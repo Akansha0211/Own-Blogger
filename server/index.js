@@ -6,12 +6,13 @@ import postRoutes from './routes/posts.js';
 
 const app = express();
 
-//use express middleware to connect routes to application
-app.use('/posts',postRoutes);
-
+app.use(bodyParser.json({extended:true}))
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.use(cors());
+
+//use express middleware to connect routes to application
+app.use('/posts',postRoutes);
 
 const CONNECTION_URL = 'mongodb+srv://akansha0211:Akansha0211@cluster0.xi2qt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 const PORT = process.env.PORT || 5000;
